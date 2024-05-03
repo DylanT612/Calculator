@@ -1,0 +1,70 @@
+<!--
+	I certify that the HTML file I am submitting is all my own work.
+	None of it is copied from any source or any person.
+	Signed: Dylan Theis. Dated: 4/23/2023
+-->
+<!--
+	Author: Garrett Walker
+	Date: 4/23/2023
+	Class: CSC135
+	Project: Assignment 7
+	Description: Making a Calculator
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="myscript.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <main>
+        <!--Grey calculator outline-->
+        <div id="calculator-body">
+            <!--Blue rounded calculator-->
+            <section id="calculator">
+                <h2>Calculator</h2>
+                <!--calculator display-->
+                <input type="text" id="output" readonly>
+
+
+                <!--buttons-->
+                <div class="button-row">
+                    <button id="memoryrecall" class="memory">mrc</button>
+                    <button id="memoryadd" class="memory">m+</button>
+                    <button id="memorysubtract" class="memory">m-</button>
+                    <button id="divide" class="operator">/</button>
+                </div>
+                <div class="button-row">
+                    <button id="seven" class="button">7</button>
+                    <button id="eight" class="button">8</button>
+                    <button id="nine" class="button">9</button>
+                    <button  id="multiply" class="operator">*</button>
+                </div>
+                <div class="button-row">
+                    <button id="four" class="button">4</button>
+                    <button id="five" class="button">5</button>
+                    <button id="six" class="button">6</button>
+                    <button id="plus" class="operator">+</button>
+                </div>
+                <div class="button-row">
+                    <button id="one" class="button">1</button>
+                    <button id="two" class="button">2</button>
+                    <button id="three" class="button">3</button>
+                    <button id="minus" class="operator">-</button>
+                </div>
+                <div class="button-row">
+                    <button id="zero" class="button">0</button>
+                    <button id="decimal" class="button">.</button>
+                    <button  id="clear-button" class="button memory">c</button>
+                    <button id="equals-button" class="button memory">=</button>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
